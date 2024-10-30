@@ -1,0 +1,49 @@
+html {
+  background-color: rgb(245, 245, 245);
+}
+
+.head {
+  font-family: helvetica;
+  font-weight: 900;
+  font-size: 210px;
+  text-align: right;
+  color: rgb(29, 29, 29);
+  display: inline;
+}
+.main {
+  margin-right: 0px;
+  margin-left: 600px;
+  font-size: 170px;
+}
+.nav {
+  font-family: helvetica;
+  color: rgb(29, 29, 29);
+  font-size: larger;
+}
+
+a {
+  color: rgb(251, 84, 29);
+  text-decoration: none;
+  font-weight: bolder;
+}
+a:hover {
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+p::selection {
+  background-color: #ffcc00;
+  color: #000000;
+}
+
+.nav-cont {
+  position: fixed;
+  margin-top: 35px;
+}
+.para-a {
+  display: flex;
+  width: 700px;
+  font-family: monospace;
+  text-align: left;
+  align-self: baseline;
+}
