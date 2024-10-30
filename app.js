@@ -22,3 +22,6 @@ app.get("/", (req, res) => {
 app.get("/about.html", (req, res) => {
   res.sendFile(__dirname + "/public/about.html");
 });
+app.get("/contact.html", (req, res) => {
+  res.sendFile(__dirname + "/public/contact.html");
+});

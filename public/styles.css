@@ -37,8 +37,13 @@ p::selection {
 }
 
 .nav-cont {
+  height: 100px;
   position: fixed;
   margin-top: 35px;
+}
+.nav-conti {
+  display: flex;
+  margin-right: 0px;
 }
 .para-a {
   display: flex;
@@ -46,4 +51,6 @@ p::selection {
   font-family: monospace;
   text-align: left;
   align-self: baseline;
+  display: flex;
+  flex-basis: 700px;
 }
